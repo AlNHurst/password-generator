@@ -30,4 +30,4 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Website Image
 
-![My Portfolio Image](./images/websiteImage.png)
+![Password Generator Image](https://github.com/AlNHurst/password-generator/blob/main/password_generator.png)
