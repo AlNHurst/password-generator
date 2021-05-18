@@ -2,7 +2,8 @@
 var lower = "abcdefghijklmnopqrstuvwxyz"
 var upper = lower.toUpperCase();
 var numbers = "0123456789";
-var specialCharacters = "~`!@#$%^&*()_+=|}{\][;':,./<>?";
+var specialCharacters = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+// Placed backslash before " to escape the quotation mark that needed to be included as special character.
 
 var generateBtn = document.querySelector("#generate");
 console.log(lower[1], lower.length, lower.concat(upper));
